@@ -1,0 +1,51 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>omg</title>
+</head>
+  <style>
+     div:hover {
+    color : BLACK ;
+    background : orange;
+         transform: rotate(-720deg);
+     scale : 70% ;
+
+    
+   
+   
+    }
+    
+     div {
+    width : 300px ;
+    height : 200px ;
+    transition : 3s ;
+   
+    background : black ;
+    }
+    h1 {
+    color : white ;
+    }
+    em:hover {
+    color : orange ;
+    background : blue ;
+    }
+  </style>
+
+<body>
+  <div>
+  <h1>
+    Write, edit and run HTML, CSS and JavaScript<em> code </em> online.
+  </h1>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
